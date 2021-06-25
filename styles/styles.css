@@ -15,7 +15,7 @@ main {
 }
 
 header {
-    background-color: #A2D7D2;
+    background-color: rgba(238, 113, 175);
     height: 110px;
     padding: 0 30px;
     display: flex;
@@ -44,15 +44,24 @@ footer {
 }
 
 #wapify-btn {
-    box-shadow: 2px 2px 2px 2px;
+    box-shadow: 2px 2px 2px 2px black;
+    border-radius: 50px;
+    color: black;
+    margin: 20px 0px 20px 0px;
 }
+
+
 
 p {
     font-size: 1.5em;
-    color: white;
+    color: rgb(241, 229, 50);
 }
 
 #input-boxes {
     margin-left: 40%;
 }
 
+#lyrics-box {
+    background-color: rgba(238, 113, 175, 0.822);
+    border-radius: 20px 20px 20px 20px ;
+}

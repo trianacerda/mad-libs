@@ -2,7 +2,7 @@ const verbInput = document.getElementById('verb');
 const verbSpan = document.getElementById('verb-id');
 const btn = document.getElementById('wapify-btn');
 const nounInput = document.getElementById('noun');
-const nounSpan = document.getElementById('noun-id');
+const nounSpan = document.getElementsById('noun');
 const noun2Input = document.getElementById('noun2');
 const noun2Span = document.getElementById('noun2-id');
 const noun3Input = document.getElementById('noun3');
@@ -14,6 +14,8 @@ const pluralNounSpan = document.getElementById('pluralnoun-id');
 const adjectiveInput = document.getElementById('adjective');
 const adjectiveSpan = document.getElementById('adjective-id');
 const songPlay = document.getElementById('song');
+const noun5Input = document.getElementById('noun5');
+const noun5Span = document.getElementsById('noun5-id');
 
 
 btn.addEventListener('click', ()=> {
@@ -25,7 +27,7 @@ btn.addEventListener('click', ()=> {
     noun4Span.textContent = noun4Input.value;
     adjectiveSpan.textContent = adjectiveInput.value;
     pluralNounSpan.textContent = pluralNounInput.value;
-
+    noun5Span.textContent = noun5Input.value;
 
     songPlay.play();
 
