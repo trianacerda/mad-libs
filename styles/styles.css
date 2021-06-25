@@ -4,10 +4,14 @@ body {
     background-color: #FFFCFA;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    max-width: 1400px;
+    
 }
 
 main {
     padding: 30px;
+    background-color: grey;
+    background-image: url(../assets/wap.png);
 }
 
 header {
@@ -33,3 +37,22 @@ footer {
     background-color: #FAF0EA;
     padding: 10px;
 }
+
+#verb, #noun, #noun2, #adjective, #plural-noun, #noun3, #noun4 {
+    box-shadow: white 1px 1px 5px .5px;
+    border-radius: 50px;
+}
+
+#wapify-btn {
+    box-shadow: 2px 2px 2px 2px;
+}
+
+p {
+    font-size: 1.5em;
+    color: white;
+}
+
+#input-boxes {
+    margin-left: 40%;
+}
+
