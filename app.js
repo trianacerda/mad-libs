@@ -13,8 +13,28 @@ const pluralNounInput = document.getElementById('plural-noun');
 const pluralNounSpan = document.getElementById('pluralnoun-id');
 const adjectiveInput = document.getElementById('adjective');
 const adjectiveSpan = document.getElementById('adjective-id');
+const songPlay = document.getElementById('song');
+
 
 btn.addEventListener('click', ()=> {
-    const verb = (verbInput.value);
+    
     verbSpan.textContent = verbInput.value;
+    nounSpan.textContent = nounInput.value;
+    noun2Span.textContent = noun2Input.value;
+    noun3Span.textContent = noun3Input.value;
+    noun4Span.textContent = noun4Input.value;
+    adjectiveSpan.textContent = adjectiveInput.value;
+    pluralNounSpan.textContent = pluralNounInput.value;
+
+
+    songPlay.play();
+
+    // if (songPlay.play()) {
+    //   songPlay.classList.toggle('hidden');
+    
+    //   setTimeout(()=>{
+    //       songPlay.classList.toggle('hidden');
+    //   }, 2000);
+  
 });
+
