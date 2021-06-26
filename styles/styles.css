@@ -38,7 +38,7 @@ footer {
     padding: 10px;
 }
 
-#verb, #noun, #noun2, #adjective, #plural-noun, #noun3, #noun4 {
+#verb, #noun, #noun2, #adjective, #plural-noun, #noun3, #noun4, #noun5, #noun6 {
     box-shadow: white 1px 1px 5px .5px;
     border-radius: 50px;
 }
@@ -49,8 +49,6 @@ footer {
     color: black;
     margin: 20px 0px 20px 0px;
 }
-
-
 
 p {
     font-size: 1.5em;
