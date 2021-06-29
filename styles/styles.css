@@ -50,6 +50,14 @@ footer {
     margin: 20px 0px 20px 0px;
 }
 
+#music-off {
+    box-shadow: 2px 2px 2px 2px black;
+    border-radius: 50px;
+    color: black;
+    margin: 20px 0px 20px 0px;
+}
+
+
 p {
     font-size: 1.5em;
     color: rgb(241, 229, 50);
@@ -63,3 +71,15 @@ p {
     background-color: rgba(238, 113, 175, 0.822);
     border-radius: 20px 20px 20px 20px ;
 }
+
+.hidden {
+    display: none;
+}
+
+#noun1-id, #adjective-id, #noun2-id, #noun3-id,
+#noun4-id, #pluralnoun-id, #noun5-id, #verb-id, 
+#noun6-id {
+    color: black;
+}
+
+
