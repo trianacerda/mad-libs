@@ -23,11 +23,12 @@ const adjectiveSpan = document.getElementById('adjective-id');
 const songPlay = document.getElementById('song');
 
 // Simon added this variable on Sunday <<<<<<<---------------------------------------
-const musicOff = document.getElementById('music-off');
+const musicOff = document.getElementById('music-pause');
 
 btn.addEventListener('click', ()=> {
 
-    
+    verbInput.classList.add('hidden');
+    nounInput.classList.add('hidden');
     adjectiveInput.classList.add('hidden');
     pluralNounInput.classList.add('hidden');
     noun6Input.classList.add('hidden');
@@ -64,4 +65,4 @@ musicOff.addEventListener('click', ()=> {
 
     songPlay.pause();
 
-})
+});

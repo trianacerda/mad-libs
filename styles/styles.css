@@ -43,7 +43,7 @@ footer {
     border-radius: 50px;
 }
 
-#wapify-btn {
+#wapify-btn, #music-pause {
     box-shadow: 2px 2px 2px 2px black;
     border-radius: 50px;
     color: black;
