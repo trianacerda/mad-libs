@@ -19,6 +19,7 @@ const pluralNounInput = document.getElementById('plural-noun');
 const pluralNounSpan = document.getElementById('pluralnoun-id');
 const adjectiveInput = document.getElementById('adjective');
 const adjectiveSpan = document.getElementById('adjective-id');
+const lyricsBox = document.getElementById('lyrics-box');
 
 const songPlay = document.getElementById('song');
 
@@ -36,6 +37,11 @@ btn.addEventListener('click', ()=> {
     noun4Input.classList.add('hidden');
     noun3Input.classList.add('hidden');
     noun2Input.classList.add('hidden');
+    //lyricsBox.classList.displayContent('lyrics-box');
+    //lyricsBox.style.display = lyricsBox.value;
+
+
+
     
     verbSpan.textContent = verbInput.value;
     nounSpan.textContent = nounInput.value;
@@ -65,4 +71,5 @@ musicOff.addEventListener('click', ()=> {
 
     songPlay.pause();
 
+    
 });
